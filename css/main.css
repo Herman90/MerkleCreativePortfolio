@@ -1,0 +1,182 @@
+html, body{
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	font-size: 16px;
+}
+
+html body *{
+	font-family: "HelveticaNeueCyr";
+}
+
+#wrap{
+	min-height: 100%;
+	height: auto;
+	margin: 0 auto -60px;
+	padding-bottom: 80px;
+}
+
+h1{
+	font-size: 60px;
+	font-weight: bold;
+}
+
+h2{
+	font-size: 48px;
+	font-weight: bold;
+}
+
+h4{
+	font-size: 30px;
+}
+
+.centered{
+	text-align: center;
+}
+
+.justified:before{
+	content: '';
+	display: block;
+	width: 100%;
+	margin-bottom: -1.2em;
+}
+
+.justified:after {
+	content: '';
+	display: inline-block;
+	width: 100%;
+}
+
+header{
+}
+
+/*region /*menu*/
+.navbar {
+	border-radius: 0;
+	margin-bottom: 0;
+}
+
+.navbar-toggle{
+	margin-top: 11px;
+	border-width: 0;
+	margin-right: 0;
+}
+
+.navbar-toggle .icon-bar {
+	height: 4px;
+}
+
+.navbar-text{
+	float: right;
+	margin: 15px 15px 0 0;
+	line-height: 32px;
+	font-size: 18px;
+}
+
+html .navbar-brand{
+	padding: 15px 20px;
+}
+/*endregion*/
+
+/*region /*main*/
+#wrap{
+	min-height: 100%;
+}
+/*endregion*/
+
+/*image block*/
+.circleImageBlock{
+	display: inline-block;
+	text-transform: capitalize;
+	padding: 10px 0;
+	width: 240px;
+	text-align: left;
+	vertical-align: top;
+	margin: 0 50px;
+}
+
+.circleImageBlock.horizontal{
+	margin: 0;
+	width: 49%;
+}
+
+.circleImageBlock .image{
+	width: 90px;
+	height: 90px;
+	border-radius: 90px;
+	background-color: #eaeaea;
+	margin: 5px auto;
+}
+
+.circleImageBlock.horizontal .image{
+	float: left;
+	display: block;
+	margin: 1px 15px 1px 0;
+}
+
+.circleImageBlock.horizontal .content{
+	overflow: hidden;
+}
+
+.circleImageBlock .title{
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.circleImageBlock .text{
+	font-size: 13px;
+	font-weight: normal;
+}
+
+/**/
+
+/*blocks*/
+.block{
+	margin-top: 20px;
+}
+
+.block .image{
+	height: 290px;
+	background-color: #eaeaea;
+}
+
+.block .title{
+	font-size: 16px;
+	font-weight: bold;
+	margin-top: 5px;
+	margin-bottom: 0;
+}
+
+.teamPhoto{
+	padding-top: 30%;
+	background-color: #eaeaea;
+	display: block;
+	background-image: url('../images/team.jpg');
+	background-size: 100% 100%;
+}
+
+footer{
+	background-color: #eaeaea;
+	color: #333;
+	font-size: 18px;
+	padding: 10px;
+	box-sizing: border-box;
+	text-align: center;
+}
+
+#push, footer{
+	height: 60px;
+}
+
+@media (min-width: 768px) {
+	.collapse .navbar-nav{
+		margin-top: 5px;
+		float: right;
+	}
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {  }
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  }
